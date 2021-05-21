@@ -33,6 +33,6 @@ iii. They could find a new use we are even less likely to do. My experience is n
 iv. People get the gem or concept of the idea from the data and meta-data and more rapidly do the new or additional work and publish the paper before you.  
 v. You are often obligated by funders to publish data, and this takes some to a lot of time depending on the meta-data language. This is time not avaible to spend on other activities like writing the paper.   
 
-#### Net outcome     
+#### Net outcome  ree in    
 
 For simple, clean data - publish before paper is written or published. It is more efficient, rapid, open, and ensures better final data with meta-data. Not novel, but unfortunately not novel either. So, we can make a change and accelerate some components of the research process.  Similar to pre-registration, pre-prints, and clinical trial registrations.  A little bit more speed and openness will ensure that the early bird gets the return.  
