@@ -9,13 +9,13 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
-## The early bird get the return: how to decide when to publish data  
+## The early bird gets the return: how to decide when to publish data  
 
 I prefer to publish when the fieldwork or synthesis research is done for many reasons.  
 
 #### Abstract  
 
-Publish your data when data collection is complete. Not novel, but not commonly done. 
+Publish your data when collection is complete - prior to the pre-print or publication. Surface your data and meta-data openly in a data repository with a DOI and versioning. Not novel but also not the norm in the historical or even contemporary culture of many scientific disciplines. Nonetheless, sharing sooner enables more rapid and effective discovery, and dramatic changes can happen. The COVID-19 pandemic has highlighted the incredible power of sharing data, simple summary statistics, and all findings extremely rapidly - as collected or in real-time. The public and scientific community at large used these resources to engage in open, novel data-driven science and evidence-informed decision making. In many other disciplines, we can adopt these lessons for both societal good and better science. Here, a simple set of direct benefits to the primary researcher are articulated and innovations to the scientific process and cultural practice of evidence deliberation are proposed.  
 
 #### Benefits  
 a. Better than Excel files or Googlesheets because it forces me to tidy up data to make 'presentable' to some extent sooner versus later.     
