@@ -1,0 +1,12 @@
+rep,embargo,efficiency,team,social,publish
+1,yes,FALSE,not relevant,no,no
+2,yes,TRUE,not relevant,no,no
+3,no,TRUE,not relevant,no,yes
+4,no,TRUE,yes,yes,yes
+5,no,TRUE,no,no,yes
+6,no,TRUE,not relevant,yes,yes
+7,no,FALSE,yes,no,yes
+8,no,FALSE,no,no,no
+9,no,FALSE,no,yes,yes
+10,no,FALSE,not relevant,no,no
+11,no,FALSE,yes,yes,yes

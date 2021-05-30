@@ -1,0 +1,41 @@
+---
+title: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## EDA
+
+#### Data
+```{r}
+library(tidyverse)
+decisions <- read_csv("data/decision_tree.csv")
+
+library(rpart)
+m1 <- rpart(
+  publish ~ embargo + efficiency + team + social, 
+  data = decisions, 
+  control = rpart.control(minsplit = 2))
+
+#m2 <- rpart(publish ~ embargo + efficiency + team + social, 
+  #data = decisions, method = 'class')
+
+```
+
+
+### Viz
+```{r}
+par(xpd = NA, mar = rep(0.7, 4)) 
+plot(m1, compress = TRUE)
+text(m1, cex = 0.7, use.n = TRUE, fancy = FALSE, all = TRUE)
+
+library(rpart.plot)
+rpart.plot(m1)
+rpart.plot(m1, varlen = 0, yesno = 2)
+
+#rpart.plot(m2)
+```
+
