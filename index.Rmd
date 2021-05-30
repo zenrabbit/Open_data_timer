@@ -19,18 +19,26 @@ m1 <- rpart(
   publish ~ embargo + efficiency + team + social, 
   data = decisions, 
   control = rpart.control(minsplit = 2))
+printcp(m1)
+print(m1)
+plotcp(m1)
+#rsq.rpart(m1)
+#summary(m1)
 
-#m2 <- rpart(publish ~ embargo + efficiency + team + social, 
-  #data = decisions, method = 'class')
 
+#library(randomForest)
+#m2 <- randomForest(publish ~ embargo + efficiency + team + social, 
+  #data = decisions)
+#print(m2)
+#importance(m2)
 ```
 
 
 ### Viz
 ```{r}
-par(xpd = NA, mar = rep(0.7, 4)) 
-plot(m1, compress = TRUE)
-text(m1, cex = 0.7, use.n = TRUE, fancy = FALSE, all = TRUE)
+#par(xpd = NA, mar = rep(0.7, 4)) 
+#plot(m1, compress = TRUE)
+#text(m1, cex = 0.7, use.n = TRUE, fancy = FALSE, all = TRUE)
 
 library(rpart.plot)
 rpart.plot(m1)
